@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import FuncionInSetState from 'components/functionInSetState';
+import RefNotState from 'components/refNotState';
+import StateExample from 'components/stateExample';
+import 'style/App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="app">
+      <h1>Top 6 React Hook Mistakes Beginners Make</h1>
+      <span className="small">
+        <a href="https://www.youtube.com/watch?v=GGo3MVBFr1A" target="_blank" rel="noreferrer">
+          source (YouTube)
         </a>
-      </header>
+      </span>
+      <div className="block">
+        <FuncionInSetState />
+      </div>
+      <div className="block">
+        <StateExample />
+      </div>
+      <div className="block">
+        <RefNotState />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,8 @@
+.state label,.state  button {
+  display: block;;
+}
+
+.state input {
+  margin-bottom: .5rem;
+}
+

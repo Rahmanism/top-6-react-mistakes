@@ -1,0 +1,25 @@
+.app {
+  margin: 1rem;
+}
+
+.value {
+  margin: .5rem;
+}
+
+.small {
+  font-size: .8rem;
+  color: gray;
+}
+
+.small a,
+.small a:visited {
+  color: gray;
+  text-decoration: none;
+  ;
+}
+
+.block {
+  margin-top: 1rem;
+  border-top: 1px solid whitesmoke;
+  padding: .5rem;
+}
