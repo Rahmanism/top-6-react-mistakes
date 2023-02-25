@@ -1,4 +1,5 @@
 import FuncionInSetState from 'components/functionInSetState'
+import ReferentialEquality from 'components/referentialEquality'
 import RefNotState from 'components/refNotState'
 import StateExample from 'components/stateExample'
 import UnnecessaryUseEffect from 'components/unnecessaryUseEffect'
@@ -24,6 +25,9 @@ function App() {
       </div>
       <div className="block">
         <UnnecessaryUseEffect />
+      </div>
+      <div className="block">
+        <ReferentialEquality />
       </div>
     </div>
   )
