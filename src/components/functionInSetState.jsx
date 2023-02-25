@@ -4,7 +4,10 @@ function FuncionInSetState() {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
-    console.log("🚀 ~ file: FuncionInSetState.js:6 ~ FuncionInSetState ~ count", count)
+    console.log(
+      "🚀 ~ file: FuncionInSetState.js:6 ~ FuncionInSetState ~ count", 
+      count
+    )
   }, [count])
 
   function adjustCount(n) {

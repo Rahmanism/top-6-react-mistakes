@@ -1,6 +1,7 @@
-import FuncionInSetState from 'components/functionInSetState';
-import RefNotState from 'components/refNotState';
-import StateExample from 'components/stateExample';
+import FuncionInSetState from 'components/functionInSetState'
+import RefNotState from 'components/refNotState'
+import StateExample from 'components/stateExample'
+import UnnecessaryUseEffect from 'components/unnecessaryUseEffect'
 import 'style/App.css'
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
       </div>
       <div className="block">
         <RefNotState />
+      </div>
+      <div className="block">
+        <UnnecessaryUseEffect />
       </div>
     </div>
   )
