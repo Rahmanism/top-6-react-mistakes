@@ -1,3 +1,4 @@
+import AbortingFetch from 'components/abortingFetch'
 import FuncionInSetState from 'components/functionInSetState'
 import ReferentialEquality from 'components/referentialEquality'
 import RefNotState from 'components/refNotState'
@@ -28,6 +29,9 @@ function App() {
       </div>
       <div className="block">
         <ReferentialEquality />
+      </div>
+      <div className="block">
+        <AbortingFetch />
       </div>
     </div>
   )
